@@ -1,5 +1,100 @@
-template-repository (1.0-1) unstable; urgency=medium
+soapyhackrf (0.3.4-2) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Add Appstream metainfo XML (Closes: #1078108)
+    - Thanks to Petter Reinholdtsen for the patch
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Dave Hibberd <hibby@debian.org>  Tue, 04 Mar 2025 23:59:15 +0000
+
+soapyhackrf (0.3.4-1) unstable; urgency=medium
+
+  * New upstream version 0.3.4
+  * Adapt d/watch to GitHub changes
+  * Bump Standards-Version to 4.6.2, no changes required
+
+ -- Andreas Bombe <aeb@debian.org>  Thu, 07 Sep 2023 23:51:49 +0530
+
+soapyhackrf (0.3.3-5) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Andreas Bombe <aeb@debian.org>  Tue, 07 Sep 2021 01:24:47 +0200
+
+soapyhackrf (0.3.3-4) experimental; urgency=low
+
+  [ Andreas Bombe ]
+  * Change SoapySDR ABI version in package names and dependencies from 0.7
+    to 0.8
+  * Add Rules-Requires-Root field to d/control
+  * Increase debhelper compat level to 13
+  * Bump Standards-Version to 4.6.0, no changes required
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Andreas Bombe <aeb@debian.org>  Thu, 26 Aug 2021 19:45:20 +0200
+
+soapyhackrf (0.3.3-3) unstable; urgency=medium
+
+  * Upload to unstable
+  * Bump Standards-Version to 4.4.1, no changes required
+
+ -- Andreas Bombe <aeb@debian.org>  Sun, 20 Oct 2019 17:25:50 +0200
+
+soapyhackrf (0.3.3-2) experimental; urgency=medium
+
+  * Change SoapySDR ABI version in package names and dependencies from 0.6
+    to 0.7
+  * Increase debhelper compat level to 12
+  * Bump Standards-Version to 4.4.0, no changes required
+
+ -- Andreas Bombe <aeb@debian.org>  Fri, 13 Sep 2019 00:43:18 +0200
+
+soapyhackrf (0.3.3-1) unstable; urgency=medium
+
+  * New upstream version 0.3.3
+  * Change Vcs fields in debian/control to point to new location on
+    salsa.debian.org
+  * Increase debhelper compat level to 11
+  * Drop unnecessary --parallel option from dh invocation
+  * Bump Standards-Version to 4.1.4, no changes required
+  * Include /usr/share/dpkg/architecture.mk in debian/rules instead of
+    defining DEB_HOST_MULTIARCH ourselves
+
+ -- Andreas Bombe <aeb@debian.org>  Mon, 28 May 2018 03:36:24 +0200
+
+soapyhackrf (0.3.2-1) unstable; urgency=medium
+
+  * New upstream version 0.3.2
+  * Bump Standards-Version to 4.1.1, no changes required
+
+ -- Andreas Bombe <aeb@debian.org>  Fri, 24 Nov 2017 00:39:30 +0100
+
+soapyhackrf (0.3.1-1) unstable; urgency=medium
+
+  * New upstream version 0.3.1
+  * Adjust Josh Blum copyright years and add Kevin Mehall to debian/copyright
+  * Change SoapySDR ABI version in package names and dependencies from 0.5-2
+    to 0.6
+  * Build-Depend on versioned libsoapysdr0.6-dev instead of libsoapysdr-dev
+  * Bump Standards-Version to 4.0.1, no changes required
+
+ -- Andreas Bombe <aeb@debian.org>  Sun, 06 Aug 2017 18:51:10 -0400
+
+soapyhackrf (0.2.2-1) unstable; urgency=medium
+
+  * New upstream version 0.2.2
+    - adapted to libhackrf API changes (closes: #841619)
+  * Mark soapysdr-module-hackrf as Multi-Arch: same
+  * Use debhelper compat level 10 instead of 9
+
+ -- Andreas Bombe <aeb@debian.org>  Mon, 24 Oct 2016 18:58:16 +0200
+
+soapyhackrf (0.2.1+git20160919-1) unstable; urgency=medium
+
+  * Initial release (Closes: #834379)
+
+ -- Andreas Bombe <aeb@debian.org>  Sat, 24 Sep 2016 12:52:16 +0200
